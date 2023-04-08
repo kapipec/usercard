@@ -65,3 +65,99 @@ body {
 .statName {
     font-weight: bolder;
 }
+
+#emptyBlock {
+    height: 50px;
+}
+
+.userCard2 {
+    background-color: rgb(255, 238, 238);
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.verificationLabel {
+    width: 20px;
+    height: 20px;
+}
+
+.verificationLabel > img {
+    width: inherit;
+    height: inherit;
+}
+
+.iconStat {
+    width: 35px;
+    height: 35px;
+}
+
+.iconStat > img {
+    width: inherit;
+    height: inherit;
+}
+
+.headInfo {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 90px;
+}
+
+.upperInfo {
+    font-size: 12px;
+    color: rgb(40, 60, 61);
+}
+
+.imageContainer {
+    border: solid 7px white;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.imageContainer > img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.userName {
+    font-weight: 550;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutUser {
+    margin-bottom: 45px;
+    width: 250px;
+}
+
+.buttonForSubscribe {
+    width: 70px;
+    height: 40px;
+    background-color: rgb(66, 66, 185);
+    margin-bottom: 15px;
+    padding-top: 11px;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(137, 154, 255);
+    height: 80px;
+    padding-top: 17px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.statInfo0 {
+    display:flex ;
+}
+
+.statName0 {
+    font-weight: bolder;
+}
